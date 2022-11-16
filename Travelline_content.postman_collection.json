@@ -1,0 +1,229 @@
+{
+	"info": {
+		"_postman_id": "686a3836-f0a7-44f1-8314-02b8e19f35c4",
+		"name": "Travelline_content",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24408838"
+	},
+	"item": [
+		{
+			"name": "Properties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content/v1/properties?since=UlUtODYxOA==&count=5&include=All",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"v1",
+						"properties"
+					],
+					"query": [
+						{
+							"key": "since",
+							"value": "UlUtODYxOA=="
+						},
+						{
+							"key": "count",
+							"value": "5"
+						},
+						{
+							"key": "include",
+							"value": "All"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Properties_ID_8155",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content/v1/properties/8155",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"v1",
+						"properties",
+						"8155"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Properties_ID_7291",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content/v1/properties/7291",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"v1",
+						"properties",
+						"7291"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Properties_ID_8156",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content/v1/properties/8156",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"v1",
+						"properties",
+						"8156"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Meal plans",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content/v1/meal-plans",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"v1",
+						"meal-plans"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Room_Type_Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content/v1/room-type-categories",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"v1",
+						"room-type-categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Room-amenity-categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://partner.qatl.ru/api/content/v1/room-amenity-categories",
+					"protocol": "https",
+					"host": [
+						"partner",
+						"qatl",
+						"ru"
+					],
+					"path": [
+						"api",
+						"content",
+						"v1",
+						"room-amenity-categories"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "apikey",
+		"apikey": [
+			{
+				"key": "value",
+				"value": "{{api-key}}",
+				"type": "string"
+			},
+			{
+				"key": "key",
+				"value": "X-API-KEY",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "api-key",
+			"value": "47306034-78fc-4767-bfd9-25e78825b985"
+		}
+	]
+}
