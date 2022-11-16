@@ -183,43 +183,6 @@
 				}
 			},
 			"response": []
-		},
-		{
-			"name": "556",
-			"request": {
-				"method": "GET",
-				"header": [],
-				"url": {
-					"raw": "https://partner.qatl.ru/api/content/v1/properties?since=UlUtODYxOA==&count=5&include=All",
-					"protocol": "https",
-					"host": [
-						"partner",
-						"qatl",
-						"ru"
-					],
-					"path": [
-						"api",
-						"content",
-						"v1",
-						"properties"
-					],
-					"query": [
-						{
-							"key": "since",
-							"value": "UlUtODYxOA=="
-						},
-						{
-							"key": "count",
-							"value": "5"
-						},
-						{
-							"key": "include",
-							"value": "All"
-						}
-					]
-				}
-			},
-			"response": []
 		}
 	],
 	"auth": {
